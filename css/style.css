@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: darkred;
+	padding-right: 40px;
+}
+#myPhotoImg{
+	padding-top: 20px;
+	width: 240px;
+	height: 240px;
+	padding-left: 20px;
+}
+.images{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.link{
+	width: 100%;
+	text-align: center;
+}
+a{
+	width: 100%;
+	text-align: center;
+	color: aliceblue;
+}
+h1{
+	text-align: center;
+	color: yellow;
+	padding-top: 50px;
+}
+.content{
+	padding-top: 50px;	
+	color: aliceblue;
+}
+.title p{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	color: yellow;
+	background-color: skyblue;
+	padding: 20px;
+	margin-bottom: 5px;
+	border: 1px solid black;
+}
+.title{
+}
+.container{
+	width: 100%;
+	margin: 20px;
+}
+.cell{
+	padding: 20px;
+	border: 1px solid black;
+	position: relative;
+	float: left;
+}
+.cellcolor1 {
+background-color: seagreen;
+}
+.cellcolor2 {
+background-color: rebeccapurple;
+}
+.cellcolor3 {
+background-color: dimgrey;
+}
+@media (min-width: 992px) {
+	.c-l-1, .c-l-2, .c-l-3{
+		float: left;
+		padding: 20px;
+	}
+	.c-l-1
+	{
+		width: 33%;
+	} 
+	.c-l-2
+	{
+		width: 33%;
+		
+	} 
+	.c-l-3
+	{
+		width: 33%;
+		
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.c-m-1, .c-m-2, .c-m-3{
+		float: left;
+		padding: 20px;
+	}
+	.c-m-1
+	{
+		width: 50%;
+	} 
+	.c-m-2
+	{
+		width: 50%;
+	} 
+	.c-m-3
+	{
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.c-s-1, .c-s-2, .c-s-3{
+		float: left;
+		padding: 20px;
+	}
+	.c-s-1
+	{
+		width: 100%;
+	} 
+	.c-s-2
+	{
+		width: 100%;
+	} 
+	.c-s-3
+	{
+		width: 100%;
+	}
+}
