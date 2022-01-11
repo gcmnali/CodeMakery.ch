@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	font-family: 'Roboto', sans-serif;
+}
 #myPhotoImg{
 	padding-top: 20px;
 	width: 480px;
@@ -33,6 +36,8 @@ h1{
 	text-align: center;
 	color: yellow;
 	padding-top: 50px;
+	font-family: 'Island Moments', cursive;
+	font-weight: bold;
 }
 .content{
 	padding-top: 50px;	
