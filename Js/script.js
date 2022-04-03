@@ -15,9 +15,9 @@ var byeSpeaker = "Goodbye";
 
 for (var i = 0; i < names.length; i++) {
 	if(names[i].charAt(0)==='J'|| names[i].charAt(0)==='j'){
-        console.log(byeSpeaker+ names[i])
+        console.log(byeSpeaker+" "+ names[i])
 	}
 	else{
-		console.log(helloSpeaker+ names[i])
+		console.log(helloSpeaker+" "+ names[i])
 	}
 }
